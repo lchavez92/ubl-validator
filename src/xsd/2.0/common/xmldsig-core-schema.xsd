@@ -16,7 +16,7 @@
 -->
 <schema xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2000/09/xmldsig#" version="0.1" xmlns="http://www.w3.org/2001/XMLSchema">
 	<!-- Basic Types Defined for Signatures -->
-	<import schemaLocation="XAdES.xsd" namespace="http://uri.etsi.org/01903/v1.3.2#" />
+	<import schemaLocation="XAdES.xsd" namespace="http://uri.etsi.org/01903/v1.3.2/" />
 	<simpleType name="CryptoBinary">
 		<restriction base="base64Binary" />
 	</simpleType>
